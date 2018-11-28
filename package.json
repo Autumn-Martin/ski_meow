@@ -7,6 +7,7 @@
     "lib": "lib"
   },
   "dependencies": {
+    "@babel/core": "^7.1.6",
     "babel-cli": "^6.26.0",
     "babel-loader": "^8.0.4",
     "babel-preset-env": "^1.7.0",
@@ -20,7 +21,9 @@
     "mocha": "^5.2.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "./node_modules/mocha/bin/mocha --require babel-core/register test",
+    "build": "./node_modules/webpack/bin/webpack.js",
+    "start": "webpack"
   },
   "repository": {
     "type": "git",
