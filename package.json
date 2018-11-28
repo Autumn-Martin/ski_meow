@@ -1,0 +1,35 @@
+{
+  "name": "ski_meow",
+  "version": "1.0.0",
+  "description": "A ski & snowboard weather app",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.0.4",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^1.0.1",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Autumn-Martin/ski_meow.git"
+  },
+  "author": "Autumn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Autumn-Martin/ski_meow/issues"
+  },
+  "homepage": "https://github.com/Autumn-Martin/ski_meow#readme"
+}
