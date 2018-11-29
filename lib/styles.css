@@ -4,14 +4,25 @@ body {
 }
 
 .btn {
-  padding: 1% 1%;
-  font-size: 17px;
   color: white;
   background: #003645;
   border: 2px solid #ffa166;
+  padding: 1% 1%;
+  font-size: 17px;
 }
 
 #intro-container {
-  margin-top: 20%;
   background: #003645;
+  margin-top: 20%;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 2% 2%;
+}
+
+#intro-text {
+  color: #e1eeff;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  padding: 1% 1%;
 }
