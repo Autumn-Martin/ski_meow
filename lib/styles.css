@@ -19,11 +19,12 @@ body {
 }
 
 #intro-container {
-  background: #003645;
+  background: rgba(0, 54, 69, 0.6);
   margin-top: 20%;
   margin-left: 20%;
   margin-right: 20%;
   padding: 2% 2%;
+  border-radius: 3px;
 }
 
 #intro-text {
@@ -39,6 +40,5 @@ body {
 .logo {
   color: white;
   font-size: 35px;
-  /* font-family: 'Nothing You Could Do' */
   font-family: 'Marck Script'
 }
