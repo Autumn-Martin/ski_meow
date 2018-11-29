@@ -61,3 +61,16 @@ body {
   font-weight: 600;
   cursor: pointer;
 }
+
+.username-field-container {
+  padding: 2% 2%;
+}
+
+#usernameField {
+  border: 2px solid #ffb080;
+  border-radius: 3px;
+}
+
+#loginForm {
+  display: none;
+}
