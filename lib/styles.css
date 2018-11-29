@@ -26,3 +26,8 @@ body {
   margin-bottom: 5%;
   padding: 1% 1%;
 }
+
+.logo {
+  color: white;
+  font-size: 35px;
+}
