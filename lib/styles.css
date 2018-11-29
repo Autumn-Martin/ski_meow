@@ -4,6 +4,10 @@ body {
   font-family: 'Josefin Sans';
 }
 
+input:focus {
+  outline-color: #00acc8;
+}
+
 .btn {
   color: white;
   background: #003645;
@@ -23,8 +27,8 @@ body {
 
 #intro-container {
   background: rgba(0, 54, 69, 0.6);
-  margin: 15% 15%;
-  padding: 2% 2%;
+  margin: 14% 14%;
+  padding: 5% 5%;
   border-radius: 3px;
 }
 
@@ -36,24 +40,18 @@ body {
   padding: 1% 1%;
   font-family: 'Josefin Sans';
   font-weight: 300;
+  font-size: 20px;
 }
 
 .logo {
   color: white;
-  font-size: 35px;
+  font-size: 40px;
   font-family: 'Marck Script';
   margin: 5% 5%;
 }
 
 .signup-link-container {
-  margin: 5% 5%;
-}
-
-.link {
-  color: white;
-  text-decoration: underline;
-  padding: 2% 2%;
-  font-weight: 400;
+  margin: 7% 7%;
 }
 
 .link:hover {
@@ -62,15 +60,34 @@ body {
   cursor: pointer;
 }
 
-.username-field-container {
-  padding: 2% 2%;
+.input-container {
+  padding: 10px 10px;
 }
 
 #usernameField {
-  border: 2px solid #ffb080;
-  border-radius: 3px;
 }
 
 #loginForm {
-  display: none;
+
+}
+
+#signupLink {
+  margin-top: 5%;
+  color: white;
+  text-decoration: underline;
+  padding: 2% 2%;
+  font-weight: 400;
+}
+
+#submitButton {
+  margin-top: 5%;
+  padding: 2% 2%;
+}
+.inputField {
+  border: 2px solid #00acc8;
+  border-radius: 3px;
+  font-family: 'Josefin Sans';
+  font-weight: 300;
+  font-size: 16px;
+  padding: 1% 1%;
 }
