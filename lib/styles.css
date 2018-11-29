@@ -1,6 +1,7 @@
 body {
   background: #005563;
   text-align: center;
+  font-family: 'Josefin Sans';
 }
 
 .btn {
@@ -11,18 +12,18 @@ body {
   font-weight: 600;
   border-radius: 3px;
   padding: 2% 2%;
+  margin: 2% 2%;
   font-size: 17px;
 }
 
 .btn:hover {
   background: #ffa166;
+  cursor: pointer;
 }
 
 #intro-container {
   background: rgba(0, 54, 69, 0.6);
-  margin-top: 20%;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin: 15% 15%;
   padding: 2% 2%;
   border-radius: 3px;
 }
@@ -40,5 +41,23 @@ body {
 .logo {
   color: white;
   font-size: 35px;
-  font-family: 'Marck Script'
+  font-family: 'Marck Script';
+  margin: 5% 5%;
+}
+
+.signup-link-container {
+  margin: 5% 5%;
+}
+
+.link {
+  color: white;
+  text-decoration: underline;
+  padding: 2% 2%;
+  font-weight: 400;
+}
+
+.link:hover {
+  color: #ffb080;
+  font-weight: 600;
+  cursor: pointer;
 }
