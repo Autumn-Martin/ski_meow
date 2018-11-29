@@ -6,9 +6,16 @@ body {
 .btn {
   color: white;
   background: #003645;
-  border: 2px solid #ffa166;
-  padding: 1% 1%;
+  border: 2px solid #ffb080;
+  font-family: 'Josefin Sans';
+  font-weight: 600;
+  border-radius: 3px;
+  padding: 2% 2%;
   font-size: 17px;
+}
+
+.btn:hover {
+  background: #ffa166;
 }
 
 #intro-container {
@@ -25,11 +32,13 @@ body {
   margin-right: 10%;
   margin-bottom: 5%;
   padding: 1% 1%;
+  font-family: 'Josefin Sans';
+  font-weight: 300;
 }
 
 .logo {
   color: white;
   font-size: 35px;
-  font-family: 'Nothing You Could Do'
-  /* font-family: 'Marck Script' */
+  /* font-family: 'Nothing You Could Do' */
+  font-family: 'Marck Script'
 }
