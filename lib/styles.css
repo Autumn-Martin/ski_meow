@@ -57,7 +57,7 @@ input:focus {
   margin: 5% 5%;
 }
 
-.signup-link-container {
+.link-container {
   margin: 7% 7%;
 }
 
@@ -78,12 +78,16 @@ input:focus {
 
 }
 
-#signupLink {
+.link {
   margin-top: 5%;
   color: white;
   text-decoration: underline;
   padding: 2% 2%;
   font-weight: 400;
+}
+
+#signupLink {
+
 }
 
 #submitButton {
@@ -97,4 +101,7 @@ input:focus {
   font-weight: 300;
   font-size: 16px;
   padding: 1% 1%;
+}
+#backLink {
+
 }
