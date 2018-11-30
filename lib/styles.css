@@ -38,9 +38,13 @@ input:focus {
   font-size: 20px;
 }
 
+#confirmPasswordLabel {
+  display: none;
+}
+
 #confirmPasswordField {
   display: none;
-  text-align: center;
+  text-align: left;
 }
 
 #loginButton {
