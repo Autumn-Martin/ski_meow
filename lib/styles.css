@@ -35,14 +35,14 @@ input:focus {
 #intro-container {
   background: rgba(0, 54, 69, 0.6);
   margin: 14% 14%;
-  padding: 5% 5%;
+  padding: 7% 7%;
   border-radius: 3px;
 }
 
 #introText {
   color: #e1eeff;
-  margin-left: 10%;
-  margin-right: 10%;
+  /* margin-left: 10%; */
+  /* margin-right: 10%; */
   margin-bottom: 5%;
   padding: 1% 1%;
   font-family: 'Josefin Sans';
@@ -90,9 +90,12 @@ input:focus {
 
 }
 
-#submitButton {
-  margin-top: 5%;
+#loginButton {
   padding: 2% 2%;
+}
+
+#signupButton {
+  display: none;
 }
 .inputField {
   border: 2px solid #00acc8;
@@ -101,7 +104,20 @@ input:focus {
   font-weight: 300;
   font-size: 16px;
   padding: 1% 1%;
+  width: 100%;
 }
-#backLink {
 
+label {
+  display: block;
+  text-align: left;
+  color: white;
+  font-weight: 600;
+}
+
+#backLink {
+  display: none;
+}
+#confirmPasswordField {
+  display: none;
+  text-align: center;
 }
