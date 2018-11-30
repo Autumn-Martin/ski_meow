@@ -11,8 +11,48 @@ body {
   }
 }
 
+label {
+  display: block;
+  text-align: left;
+  color: white;
+  font-weight: 600;
+}
+
 input:focus {
   outline-color: #00acc8;
+}
+
+#intro-container {
+  background: rgba(0, 54, 69, 0.6);
+  margin: 14% 14%;
+  padding: 7% 7%;
+  border-radius: 3px;
+}
+
+#introText {
+  color: #e1eeff;
+  margin-bottom: 5%;
+  padding: 1% 1%;
+  font-family: 'Josefin Sans';
+  font-weight: 300;
+  font-size: 20px;
+}
+
+#confirmPasswordField {
+  display: none;
+  text-align: center;
+}
+
+#loginButton {
+  padding: 2% 2%;
+}
+
+#signupButton {
+  display: none;
+}
+
+#backLink {
+  display: none;
 }
 
 .btn {
@@ -32,29 +72,19 @@ input:focus {
   cursor: pointer;
 }
 
-#intro-container {
-  background: rgba(0, 54, 69, 0.6);
-  margin: 14% 14%;
-  padding: 7% 7%;
-  border-radius: 3px;
-}
-
-#introText {
-  color: #e1eeff;
-  /* margin-left: 10%; */
-  /* margin-right: 10%; */
-  margin-bottom: 5%;
-  padding: 1% 1%;
-  font-family: 'Josefin Sans';
-  font-weight: 300;
-  font-size: 20px;
-}
-
 .logo {
   color: white;
   font-size: 40px;
   font-family: 'Marck Script';
   margin: 5% 5%;
+}
+
+.link {
+  margin-top: 5%;
+  color: white;
+  text-decoration: underline;
+  padding: 2% 2%;
+  font-weight: 400;
 }
 
 .link-container {
@@ -71,32 +101,6 @@ input:focus {
   padding: 10px 10px;
 }
 
-#usernameField {
-}
-
-#loginForm {
-
-}
-
-.link {
-  margin-top: 5%;
-  color: white;
-  text-decoration: underline;
-  padding: 2% 2%;
-  font-weight: 400;
-}
-
-#signupLink {
-
-}
-
-#loginButton {
-  padding: 2% 2%;
-}
-
-#signupButton {
-  display: none;
-}
 .inputField {
   border: 2px solid #00acc8;
   border-radius: 3px;
@@ -105,19 +109,4 @@ input:focus {
   font-size: 16px;
   padding: 1% 1%;
   width: 100%;
-}
-
-label {
-  display: block;
-  text-align: left;
-  color: white;
-  font-weight: 600;
-}
-
-#backLink {
-  display: none;
-}
-#confirmPasswordField {
-  display: none;
-  text-align: center;
 }
