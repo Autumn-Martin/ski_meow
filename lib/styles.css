@@ -22,6 +22,10 @@ input:focus {
   outline-color: #00acc8;
 }
 
+#weatherPage {
+  /* display: none; */
+}
+
 #intro-container {
   background: rgba(0, 54, 69, 0.6);
   margin: 14% 14%;
