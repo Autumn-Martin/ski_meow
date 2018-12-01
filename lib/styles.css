@@ -125,14 +125,12 @@ input:focus {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-gap: 1%;
-  background: green;
-  color: #444;
+  background: #005563;
+  color: #e1eeff;
 }
 
-.box {
-  background: #444;
-  color: #fff;
+.col {
   border-radius: 5px;
   padding: 20px;
-  font-size: 150%;
+  background: #003645;
 }
