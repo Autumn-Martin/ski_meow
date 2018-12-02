@@ -1,3 +1,6 @@
+header {
+  padding: 0% 0%;
+}
 body {
   background: #005563;
   text-align: center;
@@ -123,7 +126,7 @@ input:focus {
   margin-left: 4.5%;
   margin-right: 4.5%;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 49.5% 49.5%;
   grid-gap: 1%;
   background: #005563;
   color: #e1eeff;
@@ -133,4 +136,22 @@ input:focus {
   border-radius: 5px;
   padding: 20px;
   background: #003645;
+}
+
+.name {
+  color: white;
+  background: #00acc8;
+  margin-left: 5%;
+  margin-right: 4%;
+  padding: 2% 2%;
+  font-size: 30px;
+}
+
+.nav {
+  background: #49eaf8;
+}
+
+.precipType {
+  color: #49eaf8;
+  font-size: 20px;
 }
