@@ -1,5 +1,6 @@
 header {
   color: #49eaf8;
+  display: none;
 }
 
 body {
@@ -27,7 +28,7 @@ input:focus {
 }
 
 #weatherPage {
-  /* display: none; */
+  display: none;
 }
 
 #intro-container {
