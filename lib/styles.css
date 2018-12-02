@@ -1,3 +1,8 @@
+header {
+  color: #49eaf8;
+  display: none;
+}
+
 body {
   background: #005563;
   text-align: center;
@@ -6,7 +11,7 @@ body {
 
 /* For desktop screens: */
 @media only screen and (min-width: 768px) {
-  body {
+  .below-header {
     margin: 10% 10%;
   }
 }
@@ -20,6 +25,10 @@ label {
 
 input:focus {
   outline-color: #00acc8;
+}
+
+#weatherPage {
+  display: none;
 }
 
 #intro-container {
@@ -113,4 +122,54 @@ input:focus {
   font-size: 16px;
   padding: 1% 1%;
   width: 100%;
+}
+
+.col-container {
+  margin-left: 4.5%;
+  margin-right: 4.5%;
+  display: grid;
+  grid-template-columns: 49.75% 49.75%;
+  grid-gap: .5%;
+  background: #005563;
+  color: #e1eeff;
+  border: 5px solid #003645;
+  border-radius: 0px 0px 6px 6px;
+}
+
+.col {
+  border-radius: 2px;
+  padding: 20px;
+  background: #003645;
+}
+
+.name {
+  color: white;
+  background: #00acc8;
+  margin-left: 4%;
+  margin-right: 4%;
+  padding: 2% 2%;
+  font-size: 30px;
+  border-radius: 5px 5px 0px 0px;
+  border: 2px solid #005563;
+}
+
+.nav-logo {
+  background: #49eaf8;
+  color: white;
+  font-size: 45px;
+  font-family: 'Marck Script';
+  text-align: center;
+  padding: 2% 2%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.precipType {
+  color: #49eaf8;
+  font-size: 20px;
+}
+
+.below-header {
+  margin-top: 20%;
 }
