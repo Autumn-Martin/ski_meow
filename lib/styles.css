@@ -1,5 +1,5 @@
 header {
-  color: #49eaf8
+  color: #49eaf8;
 }
 
 body {
@@ -127,8 +127,8 @@ input:focus {
   margin-left: 4.5%;
   margin-right: 4.5%;
   display: grid;
-  grid-template-columns: 49.5% 49.5%;
-  grid-gap: 1%;
+  grid-template-columns: 49.75% 49.75%;
+  grid-gap: .5%;
   background: #005563;
   color: #e1eeff;
   border: 5px solid #003645;
@@ -155,10 +155,13 @@ input:focus {
 .nav-logo {
   background: #49eaf8;
   color: white;
-  font-size: 40px;
+  font-size: 45px;
   font-family: 'Marck Script';
   text-align: center;
   padding: 2% 2%;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .precipType {
@@ -167,5 +170,5 @@ input:focus {
 }
 
 .below-header {
-  margin-top: 10%;
+  margin-top: 20%;
 }
