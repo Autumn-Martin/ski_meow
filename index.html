@@ -8,57 +8,62 @@
     <link rel='stylesheet' type='text/css' href='./lib/reset.css' />
     <link rel='stylesheet' type='text/css' href='./lib/styles.css' />
   </head>
-  <header>
-    <h1 class='nav logo'>Ski Meow</h1>
-  </header>
   <body>
-    <div id='welcomePage'>
-      <div id='intro-container'>
-        <div>
-          <h1 class='logo'>Ski Meow</h1>
-        </div>
-        <div>
-          <p id='introText'>
-            Ski Meow helps you choose the ski resort with the most ideal
-            conditions for a great powder day! Ski Meow reports epic snowfall,
-            and if the wind and chill will be worth it. Don't wait for the snow
-            to melt, let's Ski Meow!
-          </p>
-        </div>
-        <div id='loginForm'>
-          <div class='input-container'>
-            <label for='username'>Username</label>
-            <input type='text' class='inputField' name='username' placeholder='Enter username'>
-          </div>
-          <div class='input-container'>
-            <label for='password'>Password</label>
-            <input type='text' class='inputField' name='password' placeholder='Enter password'>
-          </div>
-          <div class='input-container'>
-            <label id='confirmPasswordLabel' for='confirm-password'>Confirm Password</label>
-            <input type='text' id='confirmPasswordField' class='inputField' name='confirm-password' placeholder='Confirm password'>
-          </div>
-        </div>
-        <div>
-          <button class='btn' id='loginButton'>Log In</button>
-        </div>
-        <div>
-          <button class='btn' id='signupButton'>Sign Up</button>
-        </div>
-        <div class='link-container'>
-          <a id='signupLink' class='link'>Or Sign Up</a>
-          <a id='backLink' class='link'>Back</a>
-        </div>
-      </div>
-    </div>
 
-    <div id='weatherPage'>
-      <div class='name'>Keystone</div>
-      <div class='col-container'>
-        <div id='aColumnInfo' class='col a'></div>
-        <div id='bColumnInfo' class='col b'></div>
+      <header>
+        <h1 class='nav-logo'>Ski Meow</h1>
+      </header>
+
+    <div class='below-header'>
+
+      <div id='welcomePage'>
+        <div id='intro-container'>
+          <div>
+            <h1 class='logo'>Ski Meow</h1>
+          </div>
+          <div>
+            <p id='introText'>
+              Ski Meow helps you choose the ski resort with the most ideal
+              conditions for a great powder day! Ski Meow reports epic snowfall,
+              and if the wind and chill will be worth it. Don't wait for the snow
+              to melt, let's Ski Meow!
+            </p>
+          </div>
+          <div id='loginForm'>
+            <div class='input-container'>
+              <label for='username'>Username</label>
+              <input type='text' class='inputField' name='username' placeholder='Enter username'>
+            </div>
+            <div class='input-container'>
+              <label for='password'>Password</label>
+              <input type='text' class='inputField' name='password' placeholder='Enter password'>
+            </div>
+            <div class='input-container'>
+              <label id='confirmPasswordLabel' for='confirm-password'>Confirm Password</label>
+              <input type='text' id='confirmPasswordField' class='inputField' name='confirm-password' placeholder='Confirm password'>
+            </div>
+          </div>
+          <div>
+            <button class='btn' id='loginButton'>Log In</button>
+          </div>
+          <div>
+            <button class='btn' id='signupButton'>Sign Up</button>
+          </div>
+          <div class='link-container'>
+            <a id='signupLink' class='link'>Or Sign Up</a>
+            <a id='backLink' class='link'>Back</a>
+          </div>
+        </div>
       </div>
-    </div>
+
+      <div id='weatherPage'>
+        <div class='name'>Keystone</div>
+        <div class='col-container'>
+          <div id='aColumnInfo' class='col a'></div>
+          <div id='bColumnInfo' class='col b'></div>
+        </div>
+      </div>
+  </div>
 
   <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
   <script src='main.bundle.js'></script>

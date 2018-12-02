@@ -1,6 +1,7 @@
 header {
-  padding: 0% 0%;
+  color: #49eaf8
 }
+
 body {
   background: #005563;
   text-align: center;
@@ -9,7 +10,7 @@ body {
 
 /* For desktop screens: */
 @media only screen and (min-width: 768px) {
-  body {
+  .below-header {
     margin: 10% 10%;
   }
 }
@@ -130,10 +131,12 @@ input:focus {
   grid-gap: 1%;
   background: #005563;
   color: #e1eeff;
+  border: 5px solid #003645;
+  border-radius: 0px 0px 6px 6px;
 }
 
 .col {
-  border-radius: 5px;
+  border-radius: 2px;
   padding: 20px;
   background: #003645;
 }
@@ -141,17 +144,28 @@ input:focus {
 .name {
   color: white;
   background: #00acc8;
-  margin-left: 5%;
+  margin-left: 4%;
   margin-right: 4%;
   padding: 2% 2%;
   font-size: 30px;
+  border-radius: 5px 5px 0px 0px;
+  border: 2px solid #005563;
 }
 
-.nav {
+.nav-logo {
   background: #49eaf8;
+  color: white;
+  font-size: 40px;
+  font-family: 'Marck Script';
+  text-align: center;
+  padding: 2% 2%;
 }
 
 .precipType {
   color: #49eaf8;
   font-size: 20px;
+}
+
+.below-header {
+  margin-top: 10%;
 }
