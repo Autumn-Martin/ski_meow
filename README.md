@@ -1,5 +1,6 @@
 # Ski Meow
 Module 4 | Contributors: Autumn Martin
+
 Core Collaborators: Becca Hyland & Cory Westerfield
 
 ![](https://user-images.githubusercontent.com/36902512/49374840-cf2fc180-f6bf-11e8-9a89-8b7b66682ac6.png)
@@ -24,7 +25,7 @@ HTML, CSS, JavaScript, Waffle, Webpack
 ### Register:
 ![](https://user-images.githubusercontent.com/36902512/49375907-d60c0380-f6c2-11e8-9e1e-39aa7c940cc6.png)
 
-### Weather:
+### View weather:
 ![](https://user-images.githubusercontent.com/36902512/49374909-09995e80-f6c0-11e8-8531-50e0e066b679.png)
 
 ## Design
