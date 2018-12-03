@@ -12,7 +12,7 @@ Deciding which ski resort to go to is hard with factors to consider like epic sn
 Ski Meow is published [here](https://autumn-martin.github.io/ski_meow/).
 
 ### Background
-[Ski Meow](https://autumn-martin.github.io/ski_meow/) is a JavaScript single page app that has been integrated with my backend, PowderKeg. PowderKeg is an API which consumes weather data from DarkSky and World Weather Online. PowderKeg is deployed [here](https://powderkeg.herokuapp.com/), and has an open source repository [here](https://github.com/Autumn-Martin/powderkeg). PowderKeg also consumes data from Unsplash, which Ski Meow uses to feature a random image for the background.
+[Ski Meow](https://autumn-martin.github.io/ski_meow/) is a JavaScript single page app that has been integrated with my backend, PowderKeg. PowderKeg is an API which consumes weather data from [DarkSky](https://darksky.net/dev) and [World Weather Online](https://www.worldweatheronline.com/developer/api/ski-weather-api.aspx). PowderKeg is deployed [here](https://powderkeg.herokuapp.com/), and has an open source repository [here](https://github.com/Autumn-Martin/powderkeg). PowderKeg also consumes data from [Unsplash](https://unsplash.com/developers), which Ski Meow uses to feature a random image for the background.
 
 #### Tech Stack
 HTML, CSS, JavaScript, Waffle, Webpack
