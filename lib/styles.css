@@ -9,6 +9,13 @@ body {
   font-family: 'Josefin Sans';
 }
 
+/* For desktop screens: */
+@media only screen and (min-width: 768px) {
+  .below-header {
+    margin: 10%;
+  }
+}
+
 span {
   color: #e1eeff;
 }
@@ -16,13 +23,6 @@ span {
 p {
   margin: 1%;
   padding: 1%;
-}
-
-/* For desktop screens: */
-@media only screen and (min-width: 768px) {
-  .below-header {
-    margin: 10%;
-  }
 }
 
 label {
@@ -43,14 +43,13 @@ input:focus {
 #intro-container {
   background: rgba(0, 54, 69, 0.6);
   margin: 14%;
-  padding: 7%;
+  padding: 6%;
   border-radius: 3px;
 }
 
 #introText {
   color: #e1eeff;
   margin-bottom: 5%;
-  padding: 1%;
   font-family: 'Josefin Sans';
   font-weight: 300;
   font-size: 20px;
