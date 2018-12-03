@@ -166,9 +166,19 @@ input:focus {
 
 .precipType {
   color: #49eaf8;
-  font-size: 20px;
+  font-size: 30px;
+  padding: 5%;
+  margin: 5%;
 }
 
 .below-header {
   height: 100vh;
+}
+.precipChance {
+  padding: 5%;
+  margin: 5%;
+}
+.precipDepth {
+  padding: 5%;
+  margin: 5%;
 }
