@@ -9,6 +9,15 @@ body {
   font-family: 'Josefin Sans';
 }
 
+span {
+  color: #e1eeff;
+}
+
+p {
+  margin: 1%;
+  padding: 1%;
+}
+
 /* For desktop screens: */
 @media only screen and (min-width: 768px) {
   .below-header {
@@ -181,12 +190,15 @@ input:focus {
 .precipDepth {
   padding: 5%;
   margin: 5%;
+  color: #49eaf8;
 }
 
-span {
-    width:100px;
-    clear:left;
-    float:left;
-    text-align:right;
-    padding-right:2px;
-}​
+.peakElev {
+  color: #ffb080
+}
+.midElev {
+  color: #ffa166
+}
+.baseElev {
+  color: #ff914d;
+}
